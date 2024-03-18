@@ -11,7 +11,7 @@ const sequelize = new Sequelize(
 
 
 
-FavoriteModel(sequelize)
+FavoriteModel(sequelize) 
 UserModel(sequelize)
 
 const { User, Favorite } = sequelize.models;
